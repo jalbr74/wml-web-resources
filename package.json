@@ -4,12 +4,8 @@
     "main": "index.js",
     "scripts": {
         "clean": "npx rimraf dist",
-        "build": "esbuild src/*.ts --bundle --minify --sourcemap --outdir=./dist --global-name=wardMap"
+        "build": "esbuild src/*.ts --bundle --minify --sourcemap --outdir=./dist --global-name=jda"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "",
     "devDependencies": {
         "@types/xrm": "^9.0.80",
         "esbuild": "^0.21.5"
